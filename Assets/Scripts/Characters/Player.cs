@@ -237,8 +237,8 @@ namespace DemoGame
 
                 if (papers.Count <= 1)
                 {
-                    PlrAnim.SetBool("idle", true);
-                    PlrAnim.SetBool("RunWithPapers", false);
+                    PlrAnim.SetBool(AppConstants.tag_PAnimIdle, true);
+                    PlrAnim.SetBool(AppConstants.tag_PAnimRunWPapers, false);
                 }
 
             }
